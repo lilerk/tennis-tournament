@@ -20,7 +20,7 @@ public abstract class User {
     private String email;
 
     @Column(nullable = false)
-    private String password; // Store encoded
+    private String password;
 
     @JsonProperty("role")
     public String getRole() {
